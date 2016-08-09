@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4098D131D59BC2D00EC23C7 /* navigation.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F4098D101D59BC2D00EC23C7 /* navigation.PNG */; };
-		F4098D141D59BC2D00EC23C7 /* scroll.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F4098D111D59BC2D00EC23C7 /* scroll.PNG */; };
-		F4098D151D59BC2D00EC23C7 /* show.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F4098D121D59BC2D00EC23C7 /* show.PNG */; };
 		F4098D1B1D59CD1B00EC23C7 /* DXIreader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4098D181D59CD1B00EC23C7 /* DXIreader.m */; };
 		F4098D1C1D59CD1B00EC23C7 /* DXIreaderPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F4098D1A1D59CD1B00EC23C7 /* DXIreaderPullControl.m */; };
 		F45441141D55B57800EADD80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45441131D55B57800EADD80 /* main.m */; };
@@ -21,9 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4098D101D59BC2D00EC23C7 /* navigation.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation.PNG; sourceTree = "<group>"; };
-		F4098D111D59BC2D00EC23C7 /* scroll.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll.PNG; sourceTree = "<group>"; };
-		F4098D121D59BC2D00EC23C7 /* show.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.PNG; sourceTree = "<group>"; };
 		F4098D171D59CD1B00EC23C7 /* DXIreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXIreader.h; sourceTree = "<group>"; };
 		F4098D181D59CD1B00EC23C7 /* DXIreader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXIreader.m; sourceTree = "<group>"; };
 		F4098D191D59CD1B00EC23C7 /* DXIreaderPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXIreaderPullControl.h; sourceTree = "<group>"; };
@@ -87,9 +81,6 @@
 				F45441181D55B57800EADD80 /* ViewController.h */,
 				F45441191D55B57800EADD80 /* ViewController.m */,
 				F454411B1D55B57800EADD80 /* Main.storyboard */,
-				F4098D101D59BC2D00EC23C7 /* navigation.PNG */,
-				F4098D111D59BC2D00EC23C7 /* scroll.PNG */,
-				F4098D121D59BC2D00EC23C7 /* show.PNG */,
 				F454411E1D55B57800EADD80 /* Assets.xcassets */,
 				F45441201D55B57800EADD80 /* LaunchScreen.storyboard */,
 				F45441231D55B57800EADD80 /* Info.plist */,
@@ -164,10 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45441221D55B57800EADD80 /* LaunchScreen.storyboard in Resources */,
-				F4098D141D59BC2D00EC23C7 /* scroll.PNG in Resources */,
-				F4098D131D59BC2D00EC23C7 /* navigation.PNG in Resources */,
 				F454411F1D55B57800EADD80 /* Assets.xcassets in Resources */,
-				F4098D151D59BC2D00EC23C7 /* show.PNG in Resources */,
 				F454411D1D55B57800EADD80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

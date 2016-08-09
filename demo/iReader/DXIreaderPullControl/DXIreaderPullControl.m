@@ -8,7 +8,7 @@
 
 #import "DXIreaderPullControl.h"
 #import "DXIreader.h"
-#define KControlHeight 70
+#define KControlHeight 100
 /// 刷新状态枚举
 /// - Normal:       默认状态或者松开手就回到默认状态
 /// - Pulling:   `将要展示` - 松开手就进入展示的状态
@@ -143,7 +143,7 @@ typedef enum : NSUInteger {
                 [self endPullShow];
             }
         }else{
-            self.progress = (self.scrollView.contentOffset.y + 40)/conditionValue;
+            self.progress = (self.scrollView.contentOffset.y)/conditionValue;
         }
         
     } else {
